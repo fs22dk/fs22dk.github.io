@@ -1,0 +1,20 @@
+{
+  "name": "examination-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": "https:www.github.com/fs22dk",
+  "description": "Examination 1 with Jekyll and Docker",
+  "author": "Federico Sanders <fs22dk@student.lnu.se",
+  "license": "GPL 3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1dv022/fs22dk-examination-1"
+  },
+  "engines": {
+    "node": ">=7.0.0",
+    "npm": ">= 4.0.0"
+  },
+  "scripts": {
+    "install": "npm install"
+  }
+}

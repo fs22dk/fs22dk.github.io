@@ -1,0 +1,13 @@
+.idea
+node_modules/
+Gemfile.lock
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+LICENSE.txt
+README.md
+directories.sh
+directories.tar
+directories.log
+vendor
