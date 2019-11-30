@@ -1,9 +1,5 @@
 #!/bin/bash
 echo '\e[8;30;100t' && clear
-printf "                                         version: 0.0.1                             "
-printf "                     Jekyll              license: GPL 3.0                           "
-printf "               Directory Structurer       author: Federico Sanders                  "
-printf "                                           email: fs22dk@student.lnu.se             "
 printf "\n\n"
 touch directories.log
 pv -p -N .tar directories.tar | tar xf - -C $PWD
