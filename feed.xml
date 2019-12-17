@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2019-12-17T01:36:26-06:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">fs22dk@lnu.se</title><subtitle>1DV022 Examination 1</subtitle><entry><title type="html">robots.txt &amp;amp; humans.txt</title><link href="http://0.0.0.0:4000/jekyll/update/2019/12/16/Robots_Humans.html" rel="alternate" type="text/html" title="robots.txt &amp; humans.txt" /><published>2019-12-16T10:02:30-06:00</published><updated>2019-12-16T10:02:30-06:00</updated><id>http://0.0.0.0:4000/jekyll/update/2019/12/16/Robots_Humans</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2019/12/16/Robots_Humans.html">&lt;p&gt;En robots.txt är en del utav the robots exclusion protocol och är en webstandard som reglerar hur en sökmotor ges åtkomst till en webbsidas innehåll och är en textfil som anger vilka sidor som en sökmotor inte får eller får begära från en servern och utgår från följande standardformat:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2019-12-17T02:29:17-06:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">fs22dk@lnu.se</title><subtitle>1DV022 Examination 1</subtitle><entry><title type="html">robots.txt &amp;amp; humans.txt</title><link href="http://0.0.0.0:4000/jekyll/update/2019/12/16/Robots_Humans.html" rel="alternate" type="text/html" title="robots.txt &amp; humans.txt" /><published>2019-12-16T10:02:30-06:00</published><updated>2019-12-16T10:02:30-06:00</updated><id>http://0.0.0.0:4000/jekyll/update/2019/12/16/Robots_Humans</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2019/12/16/Robots_Humans.html">&lt;p&gt;En robots.txt är en del utav the robots exclusion protocol och är en webstandard som reglerar hur en sökmotor ges åtkomst till en webbsidas innehåll och är en textfil som anger vilka sidor som en sökmotor inte får eller får begära från en servern och utgår från följande standardformat:&lt;/p&gt;
 
 &lt;p&gt;User-agent: 
 Disallow:&lt;/p&gt;
@@ -32,12 +32,12 @@ Location:&lt;/p&gt;
 
 &lt;p&gt;./install.sh&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/assets/images/install.png&quot; alt=&quot;install&quot; class=&quot;post-image&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;För att köra projektet lokalt i Docker:&lt;/p&gt;
 
 &lt;p&gt;./run.sh&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/install.png&quot; alt=&quot;install&quot; class=&quot;post-image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Static-Site generators som Jekyll kan vara lite kluriga att komma igång med men bygger man ett mindre projekt som exempelvis en dokumentation så är det ett fördelaktigt alternativ.&lt;/p&gt;
+&lt;p&gt;Static-Site Generators som Jekyll kan vara lite kluriga att komma igång med men bygger man ett mindre projekt som exempelvis en dokumentation så är det ett fördelaktigt alternativ.&lt;/p&gt;
 
 &lt;p&gt;EOF&lt;/p&gt;</content><author><name></name></author><summary type="html">När jag började på projektet fick jag veta att Docker och i synnerhet Docker Compose inte har någon installationskandidat för Ubuntu 19.10 och att den template som jekyll-boilerplate.git genererar för Docker Compose inte har samma mappstruktur som visas i Jekylls dokumentation. Så istället för att installera Docker Compose, Jekyll och alla Ruby-gems på min maskin så skrev jag ett bash-skript som packar upp en tarball med en komplett mappstruktur och installerar Jekyll och alla Ruby-gems på Jekylls Dockeravbild direkt.</summary></entry></feed>
