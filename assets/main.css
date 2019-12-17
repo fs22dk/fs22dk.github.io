@@ -18,4 +18,14 @@ h6 { margin-top: 2px; }
 
 .site-content { padding-top: 5%; padding-right: 5%; padding-left: 5%; padding-bottom: 3%; min-height: 100%; margin-left: 0; margin-right: 0; margin-top: 0; background-color: #303030; border-left: solid #000000; border-right: solid #000000; }
 
+.footer { padding: 10px; background-color: #202020; border: solid #000000; margin-bottom: 10%; }
+
+.footer-item-1 { float: left; }
+
+.footer-item-1, li { display: inline; }
+
+.footer-item-2 { text-align: right; padding-inline-end: 40px; }
+
+.footer, .site-content::after { height: 75px; max-height: 75px; }
+
 /*# sourceMappingURL=main.css.map */
