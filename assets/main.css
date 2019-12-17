@@ -18,6 +18,8 @@ h6 { margin-top: 2px; }
 
 .site-content { padding-top: 5%; padding-right: 5%; padding-left: 5%; padding-bottom: 3%; min-height: 100%; margin-left: 0; margin-right: 0; margin-top: 0; background-color: #303030; border-left: solid #000000; border-right: solid #000000; }
 
+iframe #disqus_thread { padding-bottom: 35%; }
+
 .footer { padding: 10px; background-color: #202020; border: solid #000000; margin-bottom: 10%; }
 
 .footer-item-1 { float: left; }
