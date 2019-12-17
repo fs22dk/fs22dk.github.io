@@ -4,13 +4,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"><meta property="og:site_name" content="fs22dk@lnu.se">
 
-  <meta property="og:title" content="fs22dk@lnu.se">
+  <meta property="og:title" content="open graph">
 
 
-  <meta  property="og:type" content="website">
+  <meta property="og:type" content="article">
 
 
-  <meta property="og:url" content="http://0.0.0.0:4000/blog/">
+  <meta property="og:url" content="http://0.0.0.0:4000/jekyll/update/2019/12/16/Open_graph.html">
 
 <link rel="stylesheet" href="/assets/main.css">
 </head><body><div class="header-bar">
@@ -32,7 +32,7 @@
           
             
               
-                <a class="header-nav-item active" href="/blog/">/blog</a>
+                <a class="header-nav-item" href="/blog/">/blog</a>
               
             
           
@@ -52,25 +52,34 @@
           
     </nav>    
 </div><main class="site-content">
-        <h2>Blog</h2>
+        <div class="post">
+  <h1 class="post-title">open graph</h1>
+  <span class="post-date">16 Dec 2019</span>
+  <p>Open graph är ett verktyg som är skapat utav Facebook och gör det möjligt att integrera webbsidor i sociala medier som exempelvis Twitter, Facebook, LinkedIn och Google+ genom att göra websidor till graph-objekt med samma funktionalitet som facebook-objekt. För att göra en websida till ett graph-objekt behöver man implementera Open graphs meta-taggar:</p>
 
-        <h3><a href="/jekyll/update/2019/12/16/Robots_Humans.html">robots.txt & humans.txt</a></h3>
-        <h6><time>Dec 16, 2019</time></h6>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">meta</span> <span class="n">property</span><span class="o">=</span><span class="s2">"og:title"</span> <span class="n">content</span><span class="o">=</span><span class="s2">"title"</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">meta</span>  <span class="n">property</span><span class="o">=</span><span class="s2">"og:type"</span> <span class="n">content</span><span class="o">=</span><span class="s2">"website"</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">meta</span> <span class="n">property</span><span class="o">=</span><span class="s2">"og:url"</span> <span class="n">content</span><span class="o">=</span><span class="s2">"http://"</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">meta</span>  <span class="n">property</span><span class="o">=</span><span class="s2">"og:image"</span> <span class="n">content</span><span class="o">=</span><span class="s2">"/img/"</span><span class="o">&gt;</span></code></pre></figure>
 
-        <h3><a href="/jekyll/update/2019/12/16/Open_graph.html">open graph</a></h3>
-        <h6><time>Dec 16, 2019</time></h6>
+<p>Ovanstående taggar har jag implementerat i _includes/open-graph.html och importerat filen i _/includes/head.html</p>
 
-        <h3><a href="/jekyll/update/2019/12/16/Disqus.html">disqus</a></h3>
-        <h6><time>Dec 16, 2019</time></h6>
+<p>EOF</p>
 
-        <h3><a href="/jekyll/update/2019/12/16/CSS.html">css-preprocessors</a></h3>
-        <h6><time>Dec 16, 2019</time></h6>
-
-        <h3><a href="/jekyll/update/2019/12/16/Jekyll_Docker.html">jekyll & docker</a></h3>
-        <h6><time>Dec 16, 2019</time></h6>
-
-<br>
-<p>Prenumerera <a href="/feed.xml">via RSS</a></p>    
+</div><div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'http://0.0.0.0:4000/jekyll/update/2019/12/16/Open_graph.html';
+      this.page.identifier = 'http://0.0.0.0:4000/jekyll/update/2019/12/16/Open_graph.html';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://fs22dk.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>    
     </main><footer class="footer">
         <div class="footer-item-1">
 <ul class="social-icon-links">
