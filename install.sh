@@ -30,7 +30,7 @@ if [ ! $(grep -q 'jekyll/builder      latest' images) ];
   fi
 fi
 
-docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:latest jekyll build --trace | pv -N .gem -p -s3004  >> tmp.log;
+docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder:latest jekyll build --trace | pv -N .gem -p -s3004  >> tmp;
 cat tmp >> install.log;
 rm tmp images dirs.tar install.sh
 
